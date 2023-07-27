@@ -1,9 +1,6 @@
 <?php
 //incluye la clase Libro y CrudLibro
 
-	
-	$crud= new CrudLibro();
-	$libro=new Libro();
 	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
 	$libro=$crud->obtenerLibro($_GET['id']);
 ?>
